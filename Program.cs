@@ -18,7 +18,7 @@ namespace starter
             proc.StartInfo.UseShellExecute = true;
             proc.StartInfo.FileName = Path.Combine(Application.StartupPath, "yliyun.exe");
 
-            string arg = Path.Combine(Application.StartupPath, "app.nw");
+            string arg = Path.Combine(Application.StartupPath, "app");
             foreach (string str in args)
             {
                 arg = arg + " " + str;
